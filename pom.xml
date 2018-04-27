@@ -18,4 +18,18 @@
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
+ <distributionManagement>
+  <repository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://35.231.128.200:8081/repository/maven-releases/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>deploymentRepo</id>
+		<name>Internal Releases</name>
+		<url>http://35.231.128.200:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+
+ </distributionManagement
 </project>
