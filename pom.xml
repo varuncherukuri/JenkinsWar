@@ -29,31 +29,27 @@
 	</snapshotRepository>
  
   </distributionManagement>
-  <project>
-    ...
-    <build>
-        ...
-        <plugins>
-            ...
-            <plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <version>1.2.1.Final</version>
-                <executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            ...
-        </plugins>
-        ...
-    </build>
-...
-</project>
+ <plugin>
+  <groupId>org.wildfly.plugins</groupId>
+  <artifactId>wildfly-maven-plugin</artifactId>
+  <version>1.1.0.Alpha10</version>
+  <executions>
+    <execution>
+      <phase>install</phase>
+      <goals>
+        <goal>redeploy</goal>
+      </goals>
+    </execution>
+  </executions>
+  <configuration>
+    <force>true</force>
+    <hostname>${35.194.19.99}</hostname>
+    <port>${9990}</port>
+    <username>${admin}</username>
+    <password>${chirumaxo@123}</password>
+    <filename>${JenkinsWar1-0.0.1-20180428.035940-1.war}</filename>
+  </configuration>
+</plugin>
        
   <build>
     <finalName>JenkinsWar</finalName>
