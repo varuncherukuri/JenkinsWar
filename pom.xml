@@ -29,6 +29,8 @@
 	</snapshotRepository>
  
   </distributionManagement>
+<build>
+ <plugins>
  <plugin>
   <groupId>org.wildfly.plugins</groupId>
   <artifactId>wildfly-maven-plugin</artifactId>
@@ -50,6 +52,8 @@
     <filename>${JenkinsWar1-0.0.1-20180428.035940-1.war}</filename>
   </configuration>
 </plugin>
+ </plugins>
+<build>
        
   <build>
     <finalName>JenkinsWar</finalName>
