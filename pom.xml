@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-   <repository>
+        <repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
 		<url>http://35.193.183.100:8081/repository/maven-releases/</url>
