@@ -32,9 +32,9 @@
   <build>
         <plugins>
             <plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <version>10.1.0.Final</version>
+                <groupId>com.jenkins.demo</groupId>
+                <artifactId>JenkinsWar1</artifactId>
+                <version>0.0.1-20180428.035940-1</version>
             </plugin>
         </plugins>
   </build>
