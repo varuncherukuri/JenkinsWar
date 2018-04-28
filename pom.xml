@@ -28,12 +28,16 @@
 		<url>http://35.193.183.100:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
  
- </distributionManagement>
-	<plugin>
+  </distributionManagement>
+  <build>
+        <plugins>
+            <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>10.1.0.Final</version>
-        </plugin>
+            </plugin>
+        </plugins>
+  </build>
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
