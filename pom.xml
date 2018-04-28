@@ -45,17 +45,14 @@
   </executions>
   <configuration>
     <force>true</force>
-    <hostname>${35.194.19.99}</hostname>
-    <port>${9990}</port>
-    <username>${admin}</username>
-    <password>${chirumaxo@123}</password>
-    <filename>${JenkinsWar1-0.0.1-20180428.035940-1.war}</filename>
+    <hostname>35.194.19.99</hostname>
+    <port>9990</port>
+    <username>admin</username>
+    <password>chirumaxo@123</password>
+    <filename>JenkinsWar1-0.0.1-20180428.035940-1.war</filename>
   </configuration>
 </plugin>
  </plugins>
-<build>
+</build>
        
-  <build>
-    <finalName>JenkinsWar</finalName>
-  </build>
 </project>
